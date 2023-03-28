@@ -79,6 +79,10 @@ form.addEventListener("submit", function(event) {
 
 
 
+// Show current year
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
+
 
 
 
