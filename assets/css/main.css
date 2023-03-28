@@ -2225,7 +2225,7 @@ body.carclub {
 
 .elementor-25 .elementor-element.elementor-element-aaca39f:not(.elementor-motion-effects-element-type-background) {
     background-color: #54595F;
-    background-image: url("/media/header-bg.webp");
+    background-image: url("../../media/header-bg.webp");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2463,7 +2463,7 @@ body.carclub {
 }
 
 .elementor-25 .elementor-element.elementor-element-a256a15:not(.elementor-motion-effects-element-type-background) {
-    background-image: url("/media/services-bg.webp");
+    background-image: url("../../media/services-bg.webp");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2941,7 +2941,7 @@ body.carclub {
 @media(max-width:1024px) {
 
     .elementor-25 .elementor-element.elementor-element-aaca39f:not(.elementor-motion-effects-element-type-background) {
-        background-image: url("/media/header-bg-mobile.webp");
+        background-image: url("../../media/header-bg-mobile.webp");
     }
 
     .elementor-25 .elementor-element.elementor-element-aaca39f {
@@ -3014,7 +3014,7 @@ body.carclub {
     }
 
     .elementor-25 .elementor-element.elementor-element-a256a15:not(.elementor-motion-effects-element-type-background) {
-        background-image: url("/media/services-bg-mobile.webp");
+        background-image: url("../../media/services-bg-mobile.webp");
     }
 
     .elementor-25 .elementor-element.elementor-element-a256a15 {
