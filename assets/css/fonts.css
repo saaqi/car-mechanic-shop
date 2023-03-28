@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Lato";
+    src: local("Lato Regular"), local("Lato-Regular"), 
+      url("../webfonts/LatoLatin-Regular.woff2") format("woff2"), 
+      url("../webfonts/LatoLatin-Regular.woff") format("woff"), 
+      url("../webfonts/LatoLatin-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility
+}
+
+@font-face {
+    font-family: "Lato";
+    src: local("Lato Bold"), local("Lato-Bold"), 
+        url("../webfonts/LatoLatin-Bold.woff2") format("woff2"), 
+        url("../webfonts/LatoLatin-Bold.woff") format("woff"), 
+        url("../webfonts/LatoLatin-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility
+}
+
+
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto
+}
+
+.fas {
+    font-family: "Font Awesome 6 Free"
+}
+
+.fa-mail-bulk:before {
+    content: "\f674"
+}
+
+.fa-phone-square-alt:before {
+    content: "\f87b"
+}
+
+.fa-dot-circle:before {
+    content: "\f192"
+}
+
+.fa-arrow-circle-up:before {
+    content: "\f0aa"
+}
+
+.fa-stop-circle:before {
+    content: "\f28d"
+}
+
+.fa-user-tie:before {
+    content: "\f508"
+}
+
+.fa-circle:before {
+    content: "\f111"
+}
+
+.fa-phone:before {
+    content: "\f095"
+}
+
+.fa-mobile:before {
+    content: "\f3ce"
+}
+
+.fa-car:before {
+    content: "\f1b9"
+}
+
+.fa-map:before {
+    content: "\f279"
+}
+
+.fa-oil-can:before {
+    content: "\f613"
+}
+
+.fa-sr-only-focusable:not(:focus),
+.sr-only-focusable:not(:focus) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0
+}
+
+:host,
+:root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free"
+}
+
+@font-face {
+    font-family: "Font Awesome 6 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url(../webfonts/fa-solid-900.woff2) format("woff2"), url(../webfonts/fa-solid-900.ttf) format("truetype")
+}
+
+.fa-solid,
+.fas {
+    font-weight: 900
+}
