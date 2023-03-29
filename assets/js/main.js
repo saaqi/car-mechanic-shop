@@ -86,6 +86,43 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
 
+
+
+
+
+// animate counters
+function countWhenVisible(element, targetCount, speed) {
+  let hasCounted = false;
+  let startTime = null;
+  let observer = new IntersectionObserver(entries => {
+    if (entries[0].isIntersecting && !hasCounted) {
+      hasCounted = true;
+      startTime = performance.now();
+      let count = 0;
+      let duration = speed;
+      let interval = setInterval(() => {
+        let elapsedTime = performance.now() - startTime;
+        let progress = elapsedTime / duration;
+        if (progress >= 1) {
+          clearInterval(interval);
+          element.innerHTML = targetCount;
+        } else {
+          count = Math.floor(progress * targetCount);
+          element.innerHTML = count;
+        }
+      }, 20);
+    }
+  });
+  observer.observe(element);
+}
+countWhenVisible(document.querySelector(".elementor-element-f06ee63 .elementor-counter-number"), 5, 1000);
+countWhenVisible(document.querySelector(".elementor-element-7dc2ad3 .elementor-counter-number"), 640, 1000);
+countWhenVisible(document.querySelector(".elementor-element-d8ba9d1 .elementor-counter-number"), 2200, 2000);
+countWhenVisible(document.querySelector(".elementor-element-8c345b6 .elementor-counter-number"), 5000, 3000);
+
+
+
+
 // HIDE PRELOADER
 document.getElementById("atf-preloader").classList.add('preloader-hide');
 
