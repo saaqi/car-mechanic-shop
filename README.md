@@ -1,31 +1,5 @@
 # Car Mechanic Shop HTML 5 Template
 
-This is an HTML 5 template for a car mechanic shop that is fully responsive and animated. It has responsive navigation, introduction section with call us button, list of services with a counter, our services section with icons and brief info, testimonials section, contact section with call, WhatsApp and Google Maps embedded, and a working contact us form for static website that opens up the default email client and types the info automatically on submit button.
-
-## Features
-
-- Fully responsive and animated
-- Responsive navigation
-- Introduction section with call us button
-- List of services with a counter
-- Our services section with icons and brief info
-- Testimonials section
-- Contact section with call, WhatsApp and Google Maps embedded
-- Working contact us form for static website that opens up the default email client and types the info automatically on submit button
-
-## How to use
-
-1. Clone this repository to your local machine.
-2. Open the index.html file in your web browser.
-3. Customize the template to your liking.
-
-## Credits
-
-This template was created by [Your Name] using [Bootstrap](https://getbootstrap.com/) and [Font Awesome](https://fontawesome.com/).
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
 
 ## Introduction
 
@@ -80,7 +54,3 @@ This template was created by Saqib Islam using HTML5, CSS3 and JavaScript.
 ## License
 
 This template is licensed under the MIT License. You are free to use, modify, and distribute this template for personal or commercial purposes as long as you include the original license in your distribution.
-
-## Description
-
-This HTML 5 template is designed specifically for car mechanic shops who want to create an online presence that reflects their professionalism. The template is fully responsive and animated so that it looks great on all devices. It features responsive navigation which adapts to different screen sizes making it easy for users to navigate your website on any device. The introduction section includes a call us button which makes it easy for users to contact you directly from your website. The list of services includes a counter which shows how many services have been done so far.
