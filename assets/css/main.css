@@ -1549,13 +1549,6 @@ body.carclub .ast-mobile-header-wrap .ast-mobile-header-content .main-header-bar
     }
 }
 
-.ast-primary-header-bar {
-    background-color: ;
-    ;
-    background-image: none;
-    ;
-}
-
 @media (max-width:921px) {
 
     .ast-mobile-header-wrap .ast-primary-header-bar,
@@ -2202,8 +2195,6 @@ body.carclub {
 .elementor-element {
     --widgets-spacing: 20px;
 }
-
-    {}
 
 @media(max-width:1024px) {
     .elementor-section.elementor-section-boxed>.elementor-container {
