@@ -73,11 +73,11 @@ body {
 
 main,
 nav {
-    display: block
+    display: block;
 }
 
 a {
-    background-color: transparent
+    background-color: transparent;
 }
 
 a:active {
@@ -107,20 +107,6 @@ textarea {
     margin: 0
 }
 
-button {
-    overflow: visible
-}
-
-button {
-    text-transform: none
-}
-
-button {
-    -webkit-appearance: button;
-    cursor: pointer
-}
-
-
 input {
     line-height: normal
 }
@@ -129,10 +115,6 @@ input {
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     height: auto
-}
-
-textarea {
-    overflow: auto
 }
 
 .ast-container {
@@ -238,24 +220,31 @@ input {
 }
 
 button {
-    border: 1px solid;
-    border-color: var(--ast-border-color);
-    border-radius: 2px;
+    -webkit-appearance: button;
     background: #e6e6e6;
+    border-radius: 2px;
+    border: 1px solid;
+    color: #fff;
+    cursor: pointer;
+    overflow: visible;
     padding: .6em 1em .4em;
-    color: #fff
+    text-transform: none;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
 }
 
 button:focus,
-button:hover {
-    color: #fff;
-    border-color: var(--ast-border-color)
-}
-
-button:active,
+button:hover,
 button:focus {
+    color: #fff;
     border-color: var(--ast-border-color);
-    outline: 0
+    outline: 0;
 }
 
 input[type=email],
@@ -268,8 +257,9 @@ textarea {
 }
 
 textarea {
+    overflow: auto;
     padding-left: 3px;
-    width: 100%
+    width: 100%;
 }
 
 a {
@@ -279,10 +269,6 @@ a {
 a:focus,
 a:hover {
     color: #191970
-}
-
-a:focus {
-    outline: thin dotted
 }
 
 a:hover {
@@ -694,10 +680,6 @@ textarea:focus {
     background-color: #fff;
     border-color: var(--ast-border-color);
     box-shadow: none
-}
-
-textarea {
-    width: 100%
 }
 
 body.carclub .entry-header {
