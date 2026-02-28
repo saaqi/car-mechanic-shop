@@ -1,0 +1,64 @@
+// import partials ---
+@use "./variables" as v;
+
+.ag-courses_item {
+  overflow: hidden;
+  position: relative;
+
+  &:hover {
+    box-shadow: v.$box-shadow;
+  }
+
+  &:hover .ag-courses-item_bg {
+    transform: scale(10);
+  }
+}
+
+.ag-courses-item_title {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.ag-course-body {
+  z-index: 3;
+  position: relative;
+}
+
+.ag-courses-item_bg {
+  height: 128px;
+  width: 128px;
+  background-color: #f9b234;
+  z-index: 1;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+  border-radius: 50%;
+  transition: v.$transition;
+}
+
+.glide-deals li.glide__slide:nth-child(2n)>.ag-courses_item>.ag-courses-item_bg {
+  background-color: #3ecd5e;
+}
+
+.glide-deals li.glide__slide:nth-child(3n)>.ag-courses_item>.ag-courses-item_bg {
+  background-color: #e44002;
+}
+
+.glide-deals li.glide__slide:nth-child(4n)>.ag-courses_item>.ag-courses-item_bg {
+  background-color: #952aff;
+}
+
+.glide-deals li.glide__slide:nth-child(5n)>.ag-courses_item>.ag-courses-item_bg {
+  background-color: #cd3e94;
+}
+
+.glide-deals li.glide__slide:nth-child(6n)>.ag-courses_item>.ag-courses-item_bg {
+  background-color: #4c49ea;
+}
+
+
+//////////////////////////////////////////
+.alert-heading:hover {
+  box-shadow: v.$box-shadow;
+}

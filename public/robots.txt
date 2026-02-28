@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /src/
+Disallow: /purgecss.config.js
+
+Sitemap: https://carclubtire.com/sitemap.xml

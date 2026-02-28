@@ -1,0 +1,9 @@
+@media only screen and ( max-width: 300px) {
+  .counter-box {
+    word-break: break-all;
+    flex-direction: column;
+  }
+  .counter-box > div {
+    width: 100%
+  }
+}

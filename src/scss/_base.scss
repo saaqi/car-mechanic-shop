@@ -1,0 +1,84 @@
+// import partials ---
+@use "./variables" as v;
+
+html {
+  scroll-padding-top: 68px;
+  /* scroll-snap-type: y proximity; */
+}
+
+a {
+  text-decoration: none;
+}
+
+///////////////////////
+// Section defaults ---
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  place-content: center;
+  padding: 2rem 0;
+  /* scroll-snap-align: start; */
+}
+.section:nth-child(even) {
+  background-color: v.$even-bg;
+}
+.section:nth-child(odd) {
+  background-color: v.$odd-bg;
+}
+
+.heading-container {
+  margin-bottom: 1.5rem;
+}
+
+.section-heading {
+  text-align: center;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.section-heading::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 240px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 120px);
+}
+
+.section-heading::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: var(--bs-primary);
+  bottom: 0;
+  left: calc(50% - 40px);
+}
+
+.section-copy {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+////////////
+/*Top Link*/
+body.dark a.top-link {
+  opacity: 1;
+  transition: all ease-in-out 0.3s;
+  visibility: visible;
+}
+a.top-link {
+  bottom: 10px;
+  opacity: 0;
+  position: fixed;
+  right: 10px;
+  transition: all ease-in-out 0.3s;
+  visibility: hidden;
+  z-index: 4;
+}

@@ -1,0 +1,27 @@
+// import partials ---
+@use "./variables" as v;
+
+.testimonial .blockquote {
+  font-size: .875rem;
+}
+
+.star-ratings {
+  font-size: 1.5rem;
+  color: #ffcc33;
+}
+
+.star-ratings>i {
+  text-shadow: v.$text-shadow;
+}
+
+.glide-deals .glide__arrow--left,
+.glide-services .glide__arrow--left,
+.glide-reviews .glide__arrow--left {
+  left: 0;
+}
+
+.glide-deals .glide__arrow--right,
+.glide-services .glide__arrow--right,
+.glide-reviews .glide__arrow--right {
+  right: 0;
+}

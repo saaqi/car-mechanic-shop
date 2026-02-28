@@ -1,0 +1,36 @@
+.hero {
+  padding: calc(2rem + 66px) 0 2rem;
+  background-image: url("/src/assets/media/header-bg.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 100svh;
+
+  a.home-phone > i.bx:hover {
+    transform: rotate(30deg);
+  }
+
+  .container * {
+    z-index: 2;
+  }
+
+  .background-overlay {
+    height: 100%;
+    width: 100%;
+    min-height: 100svh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    mix-blend-mode: multiply;
+    background-color: var(--bs-primary);
+    opacity: 1;
+    z-index: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    background-image: url("/src/assets/media/header-bg-mobile.webp");
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "car-mechanic-shop-html5-bootstrap-template",
+  "description": "This is a fully responsive and animated HTML 5 template for a car mechanic shop. The template has been designed to provide a professional and modern look to the website. It includes a responsive navigation bar that makes it easy for users to navigate through the different sections of the website.",
+  "private": true,
+  "version": "2.1.6",
+  "type": "module",
+  "packageManager": "pnpm@10.30.3",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "test": "vite preview",
+    "build-bootstrap": "sass --no-source-map ./src/scss/bs-dynamic.scss ./src/css/bs-compiled.css"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^8.0.0",
+    "autoprefixer": "^10.4.27",
+    "caniuse-lite": "^1.0.30001774",
+    "cssnano": "^7.1.2",
+    "postcss": "^8.5.6",
+    "sass": "^1.97.3",
+    "vite": "^7.3.1",
+    "vite-plugin-minify": "^2.1.0",
+    "vite-plugin-webfont-dl": "^3.12.0"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.7.1",
+    "bootstrap": "^5.3.8",
+    "boxicons": "^2.1.4"
+  }
+}
